@@ -1,0 +1,32 @@
+<svg width="192" height="192" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="96" cy="96" r="86" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- 主要导航图标 - 现代化的指南针/导航设计 -->
+  <g transform="translate(96,96)">
+    <!-- 外圈 -->
+    <circle cx="0" cy="0" r="43" fill="none" stroke="#3b82f6" stroke-width="3"/>
+    
+    <!-- 内圈 -->
+    <circle cx="0" cy="0" r="29" fill="none" stroke="#60a5fa" stroke-width="2" opacity="0.6"/>
+    
+    <!-- 导航指针 -->
+    <path d="M 0,-34 L 8,-14 L 0,-5 L -8,-14 Z" fill="#1e40af"/>
+    <path d="M 0,34 L 8,14 L 0,5 L -8,14 Z" fill="#94a3b8"/>
+    
+    <!-- 网格点表示网站节点 -->
+    <circle cx="-19" cy="-19" r="3" fill="#6366f1"/>
+    <circle cx="19" cy="-19" r="3" fill="#6366f1"/>
+    <circle cx="-19" cy="19" r="3" fill="#6366f1"/>
+    <circle cx="19" cy="19" r="3" fill="#6366f1"/>
+    
+    <!-- 连接线表示导航关系 -->
+    <line x1="-19" y1="-19" x2="0" y2="-5" stroke="#a5b4fc" stroke-width="1.5" opacity="0.7"/>
+    <line x1="19" y1="-19" x2="0" y2="-5" stroke="#a5b4fc" stroke-width="1.5" opacity="0.7"/>
+    <line x1="-19" y1="19" x2="0" y2="5" stroke="#a5b4fc" stroke-width="1.5" opacity="0.7"/>
+    <line x1="19" y1="19" x2="0" y2="5" stroke="#a5b4fc" stroke-width="1.5" opacity="0.7"/>
+    
+    <!-- 中心点 -->
+    <circle cx="0" cy="0" r="4" fill="#1e40af"/>
+  </g>
+</svg>
